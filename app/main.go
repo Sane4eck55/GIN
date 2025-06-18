@@ -16,7 +16,7 @@ import (
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 
-    pb "myapp/proto" // импорт сгенерированного proto пакета
+    pb "myapp/pkg/.." // импорт сгенерированного proto пакета
 )
 
 func main() {
