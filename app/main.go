@@ -11,7 +11,7 @@ import (
     "google.golang.org/grpc"
 
     "myapp/models"
-    "myapp/services"
+    "myapp/grpc_server"
 
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
